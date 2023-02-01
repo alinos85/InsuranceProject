@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>Hello $name ,</h1>
+<h1>Thanks fo choosing Team 7 for your insurance quote.</h1>
+<h1>Below, you will find the price of your quote.</h1>
+<h1>If you want to continue with us, please buy your insurance by clicking on the button below.</h1>
+<h1>If you are not interested, please ignore this email.</h1>
+<b>The price of your quote is $price $</b>
+<form action='http://localhost:8080/api/quote/offer/$id/accept' method='post'>
+  <button type='submit'> Buy Insurance</button>
+</form>
+<a href='http://localhost:8080/api/quote/$id'>Informations on Quote</a>
+</body>
+</html>
